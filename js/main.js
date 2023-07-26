@@ -131,12 +131,13 @@ function submitForm(){
    }else if(message === ""){
     alert ("Please Enter Something.")
     }else {
-    alert("You have Submitted these Details" +
+    alert("Mission accomplished! Your message has been sent." + "\n" +
+    "\nYou have Submitted these Details" +
      "\nName: " + name +
      "\nEmail: " + mail + 
      "\nMobile Number: " + mobile +
      "\nSubject: " + subject +
-     "\nMessage: " + message + 
-     "\nMission accomplished! Your message has been sent.")
+     "\nMessage: " + message  
+     )
     }
 }
