@@ -113,3 +113,30 @@
     
 })(jQuery);
 
+function submitForm(){
+   const name =  document.getElementById("name").value;
+   const mail =  document.getElementById("mail").value;
+   const mobile =  document.getElementById("mobile").value;
+   const subject =  document.getElementById("subject").value;
+   const message =  document.getElementById("message").value;
+
+   if (name === ""){
+    alert ("Please Enter your name")
+   }else if (mail === ""){
+    alert ("Please Enter your Email")
+   }else if (mobile === ""){
+    alert ("Please Enter your Mobile Number")
+   }else if (subject === ""){
+    alert ("Please Enter Subject")
+   }else if(message === ""){
+    alert ("Please Enter Something.")
+    }else {
+    alert("You have Submitted these Details" +
+     "\nName: " + name +
+     "\nEmail: " + mail + 
+     "\nMobile Number: " + mobile +
+     "\nSubject: " + subject +
+     "\nMessage: " + message + 
+     "\nMission accomplished! Your message has been sent.")
+    }
+}
