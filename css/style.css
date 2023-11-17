@@ -120,7 +120,7 @@ h6,
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
-    font-weight: 500;
+    font-weight: 800;
 }
 
 @media (max-width: 991.98px) {
